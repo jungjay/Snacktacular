@@ -166,6 +166,11 @@
                                 <action selector="cancelButtonPressed:" destination="m3N-c0-CPX" id="qeA-mI-aCZ"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="brl-GY-cz2">
+                            <connections>
+                                <action selector="saveButtonPressed:" destination="m3N-c0-CPX" id="aam-lF-FbA"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -256,7 +261,7 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" id="SVg-Du-vHb">
-                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="JGp-QB-pZl">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="JGp-QB-pZl">
                                 <rect key="frame" x="20" y="10.5" width="374" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="PrimaryColor"/>
