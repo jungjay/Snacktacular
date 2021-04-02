@@ -158,7 +158,11 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="jdw-Lg-eW0"/>
-                        <barButtonItem title="Lookup Place" id="VL2-Dq-IEG"/>
+                        <barButtonItem title="Lookup Place" id="VL2-Dq-IEG">
+                            <connections>
+                                <action selector="locationButtonPressed:" destination="m3N-c0-CPX" id="1t3-qT-Xv6"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="9A5-zt-4Dg">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Sgu-nP-Mz8">
