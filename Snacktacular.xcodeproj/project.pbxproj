@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690A937B2617AE4300F18234 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A937A2617AE4300F18234 /* Spots.swift */; };
 		6932682E2617A87200C4FC16 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6932682D2617A87200C4FC16 /* UIViewController+alert.swift */; };
 		696E9D232612C926008C87E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696E9D222612C926008C87E0 /* AppDelegate.swift */; };
 		696E9D252612C926008C87E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696E9D242612C926008C87E0 /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		52FF211630DD9D8F8F3337D3 /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
+		690A937A2617AE4300F18234 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		6932682D2617A87200C4FC16 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		696E9D1F2612C926008C87E0 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		696E9D222612C926008C87E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				696E9D222612C926008C87E0 /* AppDelegate.swift */,
 				696E9D242612C926008C87E0 /* SceneDelegate.swift */,
 				69AB6CC52616621700052840 /* Spot.swift */,
+				690A937A2617AE4300F18234 /* Spots.swift */,
 				696E9D262612C926008C87E0 /* LoginViewController.swift */,
 				696E9D982613BCAE008C87E0 /* SpotListViewController.swift */,
 				696E9DBA2613BE50008C87E0 /* SpotTableViewCell.swift */,
@@ -246,6 +249,7 @@
 				696E9D272612C926008C87E0 /* LoginViewController.swift in Sources */,
 				696E9D232612C926008C87E0 /* AppDelegate.swift in Sources */,
 				696E9DDD2613C10A008C87E0 /* SpotDetailViewController.swift in Sources */,
+				690A937B2617AE4300F18234 /* Spots.swift in Sources */,
 				696E9DBB2613BE50008C87E0 /* SpotTableViewCell.swift in Sources */,
 				69AB6CC62616621700052840 /* Spot.swift in Sources */,
 				696E9D252612C926008C87E0 /* SceneDelegate.swift in Sources */,
