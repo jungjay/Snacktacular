@@ -124,6 +124,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" rotateEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ZL-YU-fCn">
+                                        <rect key="frame" x="0.0" y="62" width="414" height="180"/>
+                                    </mapView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -137,12 +140,16 @@
                                     <constraint firstAttribute="trailing" secondItem="bFe-IE-ZRm" secondAttribute="trailing" constant="8" id="LZe-oe-z46"/>
                                     <constraint firstAttribute="trailing" secondItem="fYO-de-hAk" secondAttribute="trailing" constant="8" id="MXz-NM-Ml2"/>
                                     <constraint firstItem="xqE-YO-Bhn" firstAttribute="leading" secondItem="h7R-wS-PGU" secondAttribute="leading" id="Mm0-aN-1er"/>
+                                    <constraint firstItem="xqE-YO-Bhn" firstAttribute="top" secondItem="0ZL-YU-fCn" secondAttribute="bottom" id="PVe-TU-1sI"/>
                                     <constraint firstItem="GJi-cV-rRj" firstAttribute="top" secondItem="xqE-YO-Bhn" secondAttribute="bottom" constant="4" id="ZGa-bk-Nda"/>
                                     <constraint firstAttribute="trailing" secondItem="xqE-YO-Bhn" secondAttribute="trailing" id="age-NK-E1o"/>
                                     <constraint firstAttribute="height" constant="380" id="cUd-5z-xmn"/>
+                                    <constraint firstItem="0ZL-YU-fCn" firstAttribute="leading" secondItem="h7R-wS-PGU" secondAttribute="leading" id="dae-K1-9L6"/>
                                     <constraint firstItem="YQr-sC-kPa" firstAttribute="leading" secondItem="yLY-1E-cjH" secondAttribute="trailing" id="iCN-dc-ByS"/>
                                     <constraint firstItem="AUi-bf-9g4" firstAttribute="top" secondItem="bFe-IE-ZRm" secondAttribute="bottom" constant="2" id="kjG-Yd-3Ne"/>
+                                    <constraint firstItem="0ZL-YU-fCn" firstAttribute="top" secondItem="AUi-bf-9g4" secondAttribute="bottom" constant="2" id="lne-bq-gxO"/>
                                     <constraint firstItem="xqE-YO-Bhn" firstAttribute="top" secondItem="h7R-wS-PGU" secondAttribute="top" constant="242" id="nAe-nc-ib2"/>
+                                    <constraint firstAttribute="trailing" secondItem="0ZL-YU-fCn" secondAttribute="trailing" id="rPR-9U-fCn"/>
                                     <constraint firstItem="bFe-IE-ZRm" firstAttribute="top" secondItem="h7R-wS-PGU" secondAttribute="top" constant="8" id="soG-Xg-n7M"/>
                                     <constraint firstItem="fYO-de-hAk" firstAttribute="top" secondItem="xqE-YO-Bhn" secondAttribute="bottom" constant="4" id="twY-H2-siq"/>
                                 </constraints>
@@ -179,6 +186,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="addressTextField" destination="AUi-bf-9g4" id="agg-0t-ul0"/>
+                        <outlet property="mapView" destination="0ZL-YU-fCn" id="8ug-z5-5bK"/>
                         <outlet property="nameTextField" destination="bFe-IE-ZRm" id="W5l-TS-Hdb"/>
                         <outlet property="ratingLabel" destination="YQr-sC-kPa" id="l2K-Ij-Q8Q"/>
                     </connections>
